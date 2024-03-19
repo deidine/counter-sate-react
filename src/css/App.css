@@ -1,0 +1,19 @@
+
+
+.card {
+  width: 300px; /* Set the width of the div */
+  margin: 0 auto; /* Center horizontally by setting left and right margins to auto */
+  position: absolute; /* or position: relative; */
+  top: 50%; /* Set the top position to 50% */
+  left: 50%; /* Set the left position to 50% */
+  transform: translate(-50%, -50%); /* Translate the div back by half its own width and height */
+  background-color: #f0f0f0; /* Just for visibility */
+  padding: 20px; /* Just for visibility */
+ 
+  padding: 2em;
+}
+
+.button-cart {
+  display: inline-block; /* Display buttons in the same line */
+  margin: 5px; /* Optional: Add some space between buttons */
+}
